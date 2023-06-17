@@ -1,0 +1,33 @@
+{
+  "name": "@p3ntest/smartvars",
+  "version": "1.0.0",
+  "description": "Require environment variables to be set, and provide a simple interface to access them.",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p3ntest/smartvars"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "utils",
+    "utilities"
+  ],
+  "author": "P3ntest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p3ntest/smartvars/issues"
+  },
+  "homepage": "https://github.com/p3ntest/smartvars#readme",
+  "dependencies": {
+    "dotenv": "^16.2.0"
+  }
+}
