@@ -35,7 +35,7 @@ export function requestNumber(name: string, defaultValue?: number): number {
 export function requestPort(name: string, defaultValue?: number): number {
   const value = requestNumber(name, defaultValue);
 
-  if (value < 0 || value > 65535) {
+  if (value <= 0 || value > 65535) {
     throw new Error(
       `SmartEnv: Variable ${name} is not a valid port number (0-65535)`
     );

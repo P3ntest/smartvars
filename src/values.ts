@@ -7,7 +7,7 @@ export function findVar(name: string): VarValue | undefined {
 
   for (const layer of config.layers) {
     const value = layer.getVar(name);
-    if (value) {
+    if (value !== undefined) {
       return value;
     }
   }
